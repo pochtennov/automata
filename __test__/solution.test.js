@@ -1,4 +1,4 @@
-const solution = require('../src/solution.js');
+const solution = require('../src/reference.js');
 
 test('solution 1', () => {
   const data = [
@@ -58,6 +58,20 @@ test('solution 4', () => {
   const expected = [
     'hi',
     'hi',
+    'hello',
+  ];
+
+  expect(solution(data.join(''))).toEqual(expected);
+});
+
+test('solution 5', () => {
+  const data = [
+    '\n\n   \n',
+    '\n  \n\n',
+    '\n hello',
+  ];
+
+  const expected = [
     'hello',
   ];
 
