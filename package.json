@@ -1,0 +1,22 @@
+{
+  "name": "automata_parcellab",
+  "version": "1.0.0",
+  "description": "small task regarding automata-based programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pochtennov/automata.git"
+  },
+  "author": "Dmitrii Pochtennnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pochtennov/automata/issues"
+  },
+  "homepage": "https://github.com/pochtennov/automata#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
